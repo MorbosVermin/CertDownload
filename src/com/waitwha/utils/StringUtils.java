@@ -5,14 +5,30 @@ import java.io.StringWriter;
 import java.math.BigInteger;
 
 /**
- * <b>Java Common Toolkit</b><br/>
- * <small>Copyright (c)2011 NCDC, NESDIS, NOAA, DOC, US Government Public Works.</small><p />
+ * <h1>CertDownload</h1>
+ * <small>Copyright &copy;2014 Mike Duncan <a href="mailto:mike.duncan@waitwha.com">mike.duncan@waitwha.com</a>.</small><p />
  *
- * Simple String conversion utility functions.
+ * <pre>
+ * This program is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU General Public License
+ * as published by the Free Software Foundation; either version 2
+ * of the License, or (at your option) any later version.
  *
- * @author Mike Duncan <mike.duncan@noaa.gov>
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+ * </pre>
+ *
+ * TODO Document this class/interface.
+ *
+ * @author Mike Duncan <mike.duncan@waitwha.com>
  * @version $Id$
- * @package gov.noaa.ncdc.isso.common.util
+ * @package com.waitwha.utils
  */
 public final class StringUtils {
 	

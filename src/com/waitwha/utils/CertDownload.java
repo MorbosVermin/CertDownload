@@ -16,11 +16,10 @@ import com.waitwha.net.AcceptAllX509TrustManager;
 import com.waitwha.net.KeyStore;
 import com.waitwha.net.SSLSocketFactory;
 
-
 /**
  * <h1>CertDownload</h1>
- * <small>Copyright &copy;2014 Mike Duncan (mike.duncan@waitwha.com)</small>
- * 
+ * <small>Copyright &copy;2014 Mike Duncan <a href="mailto:mike.duncan@waitwha.com">mike.duncan@waitwha.com</a>.</small><p />
+ *
  * <pre>
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -36,7 +35,9 @@ import com.waitwha.net.SSLSocketFactory;
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  * </pre>
- * 
+ *
+ * TODO Document this class/interface.
+ *
  * @author Mike Duncan <mike.duncan@waitwha.com>
  * @version $Id$
  * @package com.waitwha.utils

@@ -7,9 +7,9 @@ import java.io.IOException;
 import java.util.logging.Logger;
 
 /**
- * <b>ApacheCheck</b><br/>
- * <small>Copyright (c)2013 Mike Duncan <a href="mailto:mike.duncan@waitwha.com">mike.duncan@waitwha.com</a></small><p />
- * 
+ * <h1>CertDownload</h1>
+ * <small>Copyright &copy;2014 Mike Duncan <a href="mailto:mike.duncan@waitwha.com">mike.duncan@waitwha.com</a>.</small><p />
+ *
  * <pre>
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -25,8 +25,11 @@ import java.util.logging.Logger;
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  * </pre>
- * 
- * TODO Document this class/interface.
+ *
+ * Custom LogManager to handle logging. This will check to see if a file 
+ * exists within user.dir named logging.properties. If so, it will attempt
+ * to load logging configuration from this file, or if not found, will
+ * load the file from bundled resources (jar).
  *
  * @author Mike Duncan <mike.duncan@waitwha.com>
  * @version $Id$

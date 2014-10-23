@@ -22,9 +22,10 @@ import javax.net.ssl.TrustManager;
 import com.waitwha.logging.LogManager;
 
 /**
- * <b>CertDownload</b><br/>
- * <small>Copyright (c)2013 Mike Duncan <a href="mailto:mike.duncan@waitwha.com">mike.duncan@waitwha.com</a></small><p />
+ * <h1>CertDownload</h1>
+ * <small>Copyright &copy;2014 Mike Duncan <a href="mailto:mike.duncan@waitwha.com">mike.duncan@waitwha.com</a>.</small><p />
  *
+ * <pre>
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
  * as published by the Free Software Foundation; either version 2
@@ -38,12 +39,13 @@ import com.waitwha.logging.LogManager;
  * You should have received a copy of the GNU General Public License
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
- * 
- * TODO Document this class/interface.
+ * </pre>
+ *
+ * Custom SocketFactory derivation which will handle the SSL connections.
  *
  * @author Mike Duncan <mike.duncan@waitwha.com>
  * @version $Id$
- * @package com.waitwha.logging
+ * @package com.waitwha.net
  */
 public class SSLSocketFactory extends SocketFactory {
 	

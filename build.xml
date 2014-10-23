@@ -5,7 +5,7 @@
 	<property name="project.name" value="certdl" />
 	<property name="project.version" value="0.1" />
 	<property name="project.author" value="Mike Duncan (mike.duncan@waitwha.com)" />
-	<property name="project.copyright" value="Copyright (c)2013 ${project.author}. Released under GPLv2. See COPYING for more information." />
+	<property name="project.copyright" value="Copyright (c)2014 ${project.author}. Released under GPLv2. See LICENSE for more information." />
 	<property name="project.manifest" value="certdl.manifest" />
 	<property name="project.sources" value="src" />
 	<property name="project.build" value="build" />
